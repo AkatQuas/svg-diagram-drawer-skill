@@ -1,0 +1,12 @@
+{
+  "name": "svg-diagram-drawer-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SVG → PNG conversion tool for the SVG Diagram Drawer skill",
+  "scripts": {
+    "convert": "bun main.ts"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
