@@ -11,7 +11,8 @@
 - 🖼️ **PNG export** — Convert SVG to crisp @2x/@3x PNG via `@resvg/resvg-js` with proper system font rendering
 - 📦 **Self-contained** — Single `.svg` file output, no runtime dependencies, all styles and fonts embedded
 - 🔤 **System fonts** — Uses macOS system fonts (Menlo, Monaco, Courier New) — renders correctly in both browser and PNG export
-- 🧊 **No overlap** — Opaque masking rect trick hides arrows behind semi-transparent components
+- 🧊 **No overlap** — Opaque masking rect trick hides arrows behind semi-transparent components; layout fundamentals enforce boundary anchoring, text layering, and reserved legend bands
+- 📐 **Uniform grid & margins** — `(col, row)` indices, equal spacing, nested margin tokens (`regionPad=20`), region bounds computed from content
 
 ## 📦 Installation
 
